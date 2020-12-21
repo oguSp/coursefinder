@@ -26,16 +26,19 @@ public class App
 
         CommandLineParser parser = new DefaultParser();
             try {
-                // parse the command line arguments
+                // parsing degli argomenti da linea di comando
                 CommandLine line = parser.parse( options, args );
-                if (line.getArgs().length > 1) System.err.println("Numero di argomenti errato");
+                if (line.getArgs().length > 1) System.err.println("Wrong number of arguments");
+                else if (line.getOptions().length == 0) {
+                    //TODO metodo che carica tutti i corsi
+                }
                 else if (line.hasOption('i')){
                     ICourseRepository courseRepository = new CSVCourseRepository(line.getArgs()[0]);
                     System.out.println(courseRepository.findByInstructorNames(line.getOptionValues('i')));
                 }
             }
             catch( ParseException exp ) {
-                // oops, something went wrong
+                // Stampa errore nel caso di opzioni non riconosciute 
                 System.err.println( "Parsing failed.  Reason: " + exp.getMessage() );
             }
 
