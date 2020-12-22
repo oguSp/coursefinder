@@ -22,10 +22,10 @@ import coursefinder.domain.Instructor;
 
 public class CSVCourseRepository implements ICourseRepository {
 
-    private String filePath;
+    private Reader input;
 
-    public CSVCourseRepository(String filePath) {
-        this.filePath = filePath;
+    public CSVCourseRepository(String filePath) throws FileNotFoundException {
+            this.input = new FileReader(filePath);
     }
 
     @Override
@@ -33,7 +33,6 @@ public class CSVCourseRepository implements ICourseRepository {
         try {
             List<Course> courses = new ArrayList<>();
             List<String> instructorsNamesAsList = Arrays.asList(instructorNames);
-            Reader input = new FileReader(this.filePath);
             Iterable<CSVRecord> records = CSVFormat.EXCEL.withHeader().parse(input);
             for (CSVRecord record : records) {
                 String[] csvInstructorNames = record.get("Instructors").split(", ");
@@ -41,32 +40,47 @@ public class CSVCourseRepository implements ICourseRepository {
                 for (String csvInstructorName : csvInstructorsNamesAsList) {
                     if (instructorsNamesAsList.contains(csvInstructorName)){
                         Course course = mapCourse(record.get("Course Number"), record.get("Course Title"), record.get("Year"), record.get("Launch Date"), csvInstructorsNamesAsList, record.get("Institution"));
-                        if (!courses.contains(course)){
-                            courses.add(course);
-                        }
-                        break; //Se ho trovato anche solo uno degli insegnanti creo il corso.
+                        courses.add(course);
+                        break; //Se ho trovato anche solo uno degli insegnanti creo il corso senza controllare l'altro.
                     }
                 }
             }
             return courses;
         }
         catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            System.err.println("Parsing error");
+            return null;
+        }
+    }
+
+    @Override
+    public List<Course> getAllCourses() {
+        try {
+            List<Course> courses = new ArrayList<>();
+            Iterable<CSVRecord> records = CSVFormat.EXCEL.withHeader().parse(input);
+            for (CSVRecord record : records) {
+                String[] csvInstructorNames = record.get("Instructors").split(", ");
+                List<String> csvInstructorsNamesAsList = Arrays.asList(csvInstructorNames);
+                Course course = mapCourse(record.get("Course Number"), record.get("Course Title"), record.get("Year"), record.get("Launch Date"), csvInstructorsNamesAsList, record.get("Institution"));
+                courses.add(course);
+            }
+            return courses;
+        } catch (Exception e) {
+            System.err.println("Parsing error");
             return null;
         }
     }
 
     private Course mapCourse(String courseNumber, String courseTitle, String year, String date, List<String> instructorsNames, String csvInstitution )
             throws ParseException {
-        CourseYear intYear = new CourseYear(Integer.parseInt(year));
         DateFormat format = new SimpleDateFormat("MM/d/yyyy", Locale.ENGLISH);
         Date launchDate = format.parse(date);
+        CourseYear courseYear = new CourseYear(Integer.parseInt(year), launchDate);
         Institution institution =new Institution(csvInstitution);
         List<Instructor> instructors = new ArrayList<>();
         for (String instructorName : instructorsNames) {
             instructors.add(new Instructor(instructorName));
         }
-        return new Course(courseNumber, courseTitle, intYear, launchDate, instructors, institution);
+        return new Course(courseNumber, courseTitle, courseYear, instructors, institution);
     }
 }

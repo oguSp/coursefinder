@@ -1,11 +1,15 @@
 package coursefinder.domain;
 
+import java.util.Date;
+
 public class CourseYear {
     
     private int year;
+    private Date launchDate;
 
-    public CourseYear(int year){
+    public CourseYear(int year, Date launchDate){
         this.year = year;
+        this.launchDate = launchDate;
     }
 
     public int getYear() {
@@ -16,28 +20,18 @@ public class CourseYear {
         this.year = year;
     }
 
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + year;
-        return result;
+    public Date getLaunchDate() {
+        return launchDate;
+    }
+
+    public void setLaunchDate(Date launchDate) {
+        this.launchDate = launchDate;
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        CourseYear other = (CourseYear) obj;
-        if (year != other.year)
-            return false;
-        return true;
+    public String toString() {
+        return "Coure Year + " + year + "Launch Date = " + launchDate;
     }
 
     
-
 }

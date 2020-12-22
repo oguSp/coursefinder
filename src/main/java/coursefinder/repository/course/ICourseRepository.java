@@ -7,6 +7,5 @@ import coursefinder.domain.Course;
 public interface ICourseRepository {
     
     List<Course> findByInstructorNames(String[] instructorNames);
-
-
+    List<Course> getAllCourses();
 }

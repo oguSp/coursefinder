@@ -1,6 +1,5 @@
 package coursefinder.domain;
 
-import java.util.Date;
 import java.util.List;
 
 public class Course {
@@ -8,18 +7,16 @@ public class Course {
     private String courseNumber;
     private String courseTitle;
     private CourseYear courseYear;
-    private Date launchDate;
     private List<Instructor> instructors;
     private Institution institution;
 
 
 
-    public Course(String courseNumber, String courseTitle, CourseYear courseYear, Date launchDate, List<Instructor> instructors,
+    public Course(String courseNumber, String courseTitle, CourseYear courseYear, List<Instructor> instructors,
             Institution institution) {
         this.courseNumber = courseNumber;
         this.courseTitle = courseTitle;
         this.courseYear = courseYear;
-        this.launchDate = launchDate;
         this.instructors = instructors;
         this.institution = institution;
     }
@@ -28,7 +25,7 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course Number = " + courseNumber + ", Course Title = " + courseTitle +", " + institution + "\n";
+        return "Course Number = " + courseNumber + ", Course Title = " + courseTitle +", " + institution;
     }
 
     @Override
@@ -60,6 +57,46 @@ public class Course {
         } else if (!institution.equals(other.institution))
             return false;
         return true;
+    }
+
+    public String getCourseNumber() {
+        return courseNumber;
+    }
+
+    public void setCourseNumber(String courseNumber) {
+        this.courseNumber = courseNumber;
+    }
+
+    public String getCourseTitle() {
+        return courseTitle;
+    }
+
+    public void setCourseTitle(String courseTitle) {
+        this.courseTitle = courseTitle;
+    }
+
+    public CourseYear getCourseYear() {
+        return courseYear;
+    }
+
+    public void setCourseYear(CourseYear courseYear) {
+        this.courseYear = courseYear;
+    }
+
+    public List<Instructor> getInstructors() {
+        return instructors;
+    }
+
+    public void setInstructors(List<Instructor> instructors) {
+        this.instructors = instructors;
+    }
+
+    public Institution getInstitution() {
+        return institution;
+    }
+
+    public void setInstitution(Institution institution) {
+        this.institution = institution;
     }
 
     
