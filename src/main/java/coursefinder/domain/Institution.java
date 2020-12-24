@@ -9,6 +9,8 @@ public class Institution {
         this.name = name;
     }
 
+    
+
     @Override
     public String toString() {
         return "Institution Name = " + name;
@@ -39,6 +41,11 @@ public class Institution {
         return true;
     }
 
-    
-    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
