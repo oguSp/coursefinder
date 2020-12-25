@@ -106,6 +106,7 @@ public class App {
             System.err.println(" Error: File not found");
         }
     }
+    // Selezione della factory relativa alla stampante
     static void configureCoursePrinter(boolean hasXlsOption) {
         if (hasXlsOption == true) {
             basePrinterFactory = new ExcelCoursePrinterFactory();

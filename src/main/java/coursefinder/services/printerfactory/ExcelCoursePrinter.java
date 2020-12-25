@@ -10,6 +10,9 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import coursefinder.domain.Course;
 
+/**
+ * Implementazione di una stampante che stampa su file excel
+ */
 public class ExcelCoursePrinter implements CoursePrinter {
 
     @Override
@@ -31,7 +34,6 @@ public class ExcelCoursePrinter implements CoursePrinter {
                 coursesSheet.write(outputFile);
                 outputFile.close();
                 coursesSheet.close();
-                System.out.println(" scrittura completata con successo");
             } catch (Exception e) {
                 System.err.println("Errore durante la scrittura del file: "+e.getMessage());
             }

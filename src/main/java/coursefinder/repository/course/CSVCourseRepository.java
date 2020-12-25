@@ -20,6 +20,9 @@ import coursefinder.domain.CourseYear;
 import coursefinder.domain.Institution;
 import coursefinder.domain.Instructor;
 
+/**
+ * Repository per operazioni sui corsi su file csv.
+ */
 public class CSVCourseRepository implements ICourseRepository {
 
     private Reader input;
