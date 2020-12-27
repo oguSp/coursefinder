@@ -1,0 +1,70 @@
+Institution,Course Number,Launch Date,Course Title,Instructors,Year
+HarvardX,CS50x,01/01/2016,Introduction to Computer Science (2016),,4
+MITx,6.302.0x,01/04/2016,Introduction to Feedback Control Theory,"Jacob White, Joe Steinmeyer",4
+HarvardX,HLS2x,01/07/2016,Contracts Law: From Trust to Promise to Contract,Charles Fried,4
+MITx,8.MECHCx,01/07/2016,Advanced Introductory Classical Mechanics,"David E. Pritchard, Chris Chudzicki, Zhongzhou Chen",4
+MITx,6.00.1x,01/13/2016,Introduction to Computer Science and Programming Using Python,"Eric Grimson, John Guttag, Ana Bell",4
+HarvardX,PH525.4x,01/15/2016,Data Analysis for Genomics: Introduction to High-Dimensional Data Analysis,Rafael Irizarry,4
+MITx,8.421.5x,01/15/2016,Atomic and Optical Physics: Coherence,"Wolfgang Ketterle, David E. Pritchard, Isaac Chuang",4
+HarvardX,PH556x,01/20/2016,Practical Improvement Science in Health Care: A Roadmap for Getting Results,"Don Goldmann, Dave Williams, Don Berwick",4
+HarvardX,MUS24x,01/21/2016,First Nights: Beethoven's 9th Symphony,Tom Kelly,4
+HarvardX,PH231x,01/25/2016,Readings in Global Health,David Hunter,4
+MITx,LAUNCH.x,01/25/2016,Becoming an Entrepreneur,Laurie Stach,4
+MITx,3.054.1x,01/27/2016,"Cellular Solids: Structures, Properties and Engineering Applications",Lorna J. Gibson,4
+MITx,11.132x,01/27/2016,Design and Development of Educational Technology,"Eric Klopfer, Scot Osterweil, Judy Perry",4
+MITx,21W.789x,02/01/2016,Mobile Application Experiences: From a Domain to an App Idea,"Frank Bentley, Ed Barrett",4
+MITx,6.041x,02/02/2016,Introduction to Probability: The Science of Uncertainty,"John Tsitsiklis, Patrick Jaillet, Aliaa Atwi, Dimitri Bertsekas, Qing He, Jimmy Li, Jagdish Ramakrishnan, Katie Szeto, Kuang Xu",4
+MITx,16.110x,02/09/2016,Flight Vehicle Aerodynamics,"Mark Drela, Alejandra Uranga",4
+MITx,CTL.SC1x,02/10/2016,Supply Chain and Logistics Fundamentals,Chris Caplice,4
+HarvardX,PH525.5x,02/15/2016,Data Analysis for Genomics: Introduction to Bioconductor: Annotation and Analysis of Genomes and Genomic Assays,Rafael Irizarry,4
+HarvardX,EMC2x,02/16/2016,The Einstein Revolution,Peter Galison,4
+MITx,12.340x,02/16/2016,Global Warming Science,"Kerry Emanuel, Dan Cziczo, David McGee",4
+MITx,8.05.1x,02/17/2016,Mastering Quantum Mechanics: Wave Mechanics,"Barton Zwiebach, Saif Rayyan",4
+MITx,14.73x,02/22/2016,The Challenges of Global Poverty,"Esther Duflo, Abhijit Vinayak Banerjee",4
+HarvardX,SW25x,02/23/2016,Global Health Case Studies from a Biosocial Perspective,"Arthur Kleinman, Paul Farmer, Salmaan Keshavjee, Anne Becker",4
+MITx,21W.789.2x,02/29/2016,Mobile Application Experiences: Mobile App Design,"Frank Bentley, Ed Barrett",4
+HarvardX,HDS3221.1x,03/01/2016,"World Religions Through their Scriptures: Religious Literacy, Traditions and Scriptures",Diane Moore,4
+MITx,6.00.2x,03/02/2016,Introduction to Computational Thinking and Data Science,"Eric Grimson, John Guttag, Ana Bell",4
+HarvardX,PH525.6x,03/15/2016,Data Analysis for Genomics: High-performance Computing for Reproducible Genomics,Rafael Irizarry,4
+HarvardX,HLS2x,03/18/2016,Contracts Law: From Trust to Promise to Contract,Charles Fried,4
+MITx,8.05.2x,03/23/2016,Mastering Quantum Mechanics: Quantum Dynamics,"Barton Zwiebach, Saif Rayyan",4
+MITx,21W.789.3x,03/28/2016,Mobile Application Experiences: Building Mobile Apps,"Frank Bentley, Ed Barrett",4
+MITx,15.662x,03/28/2016,Shaping the Future of Work,"Thomas Kochan, Gokce Basbug, Meryam Bukari, Shahid Azad, Kanika Almadi",4
+MITx,18.01.3x,03/29/2016,Calculus: Coordinate Systems and Infinite Series,David Jerison,4
+MITx,7.QBWx,03/29/2016,Quantitative Biology Workshop,"Jeff Gore, Paul Blainey, Eric S. Lander, Ernest Fraenkel, Mary Ellen Wiltrout, Nathaniel Schafheimer",4
+HarvardX,HDS3221.2x,04/05/2016,World Religions Through their Scriptures: Christianity,Karen King,4
+HarvardX,AMPOx.6,04/08/2016,Poetry in America: Modernism,Elisa New,4
+MITx,3.054.2x,04/08/2016,Cellular Solids: Applications in Medicine,Lorna J. Gibson,4
+MITx,15.071x,04/12/2016,The Analytics Edge,"Dimitris Bertsimas, Allison O'Hair, John Silberholz, Iain Dunning, Angie King, Velibor Misic, Nataly Youssef, Alex Weinstein, Jerry Kung",4
+HarvardX,PH525.7x,04/15/2016,Data Analysis for Genomics: Case Studies in Functional Genomics,Rafael Irizarry,4
+HarvardX,GSE3x,04/19/2016,Introduction to Data Wise: A Collaborative Process to Improve Learning and Teaching,Kathryn Parker Boudett,4
+MITx,11.405x,04/19/2016,Just Money: Banking as if Society Mattered,"J. Phillip Thompson, Katrin Kaeufer, Lily Steponaitis",4
+MITx,21W.789.4x,04/25/2016,Mobile Application Experiences: Understanding Use,"Frank Bentley, Ed Barrett",4
+MITx,11.126x,04/27/2016,Introduction to Game Design,"Eric Klopfer, Philp Tan, Sara Verrilli",4
+MITx,8.05.3x,04/27/2016,Mastering Quantum Mechanics: Entanglement and Angular Momentum,"Barton Zwiebach, Saif Rayyan",4
+HarvardX,MUS24.1x,04/28/2016,First Nights: L'Orfeo,Tom Kelly,4
+MITx,JPAL101x,05/02/2016,Evaluating Social Programs,"Rachel Glennerster, Marc Shotland",4
+HarvardX,HDS3221.3x,05/03/2016,World Religions Through their Scriptures: Buddhism,Charles Hallisey,4
+HarvardX,GSE2x,05/11/2016,Leaders of Learning,Richard Elmore,4
+MITx,3.054.3x,05/11/2016,Cellular Solids: Applications in Nature,Lorna J. Gibson,4
+MITx,CTL.SC2x,05/18/2016,Supply Chain Design,"Chris Caplice, Yossi Sheffi, Jarrod Goentzel, James Blayney Rice Jr.",4
+MITx,21W.789.5x,05/23/2016,Mobile Application Experiences: Reporting Research Findings,"Frank Bentley, Ed Barrett",4
+HarvardX,MCB64.1x,05/25/2016,Cell Biology: Mitochondria,Rob Lue,4
+MITx,3.15.1x,05/25/2016,Electronic Materials and Devices,Caroline Ross,4
+HarvardX,HDS3221.4x,06/01/2016,World Religions Through Their Scriptures: Islam,Ali Asani,4
+MITx,7.28.1x1,06/07/2016,Molecular Biology: DNA Replication and Repair,"Stephen P. Bell, Tania A. Baker, Mary Ellen Wiltrout, Nathaniel Schafheimer, Sera Thornton",4
+MITx,6.00.1x,06/07/2016,Introduction to Computer Science and Programming,"Eric Grimson, John Guttag, Ana Bell",4
+HarvardX,ENGSCI137x,06/08/2016,Energy Within Environmental Constraints,David Keith,4
+MITx,10.03x,06/14/2016,Making Biologic Medicines for Patients: The Principles of Biopharmaceutical Manufacturing,"J. Christopher Love, Anthony J. Sinskey, Dr.  Stacy L. Springs, Dr. Paul W. Barone, Betsy Skrip, Nicholas Mozdzierz, Eric Miller",4
+MITx,2.01x,06/22/2016,Elements of Structures,"Simona Socrate, Alexie M. Kolpak",4
+MITx,LAUNCHx,06/27/2016,Becoming an Entrepreneur,Laurie Stach,4
+MITx,6.002.1x,06/28/2016,Circuits and Electronics: Basic Circuit Analysis,"Anant Agarwal, Gerald Sussman, Piotr Mitros, Chris Terman, Bonnie Lam",4
+MITx,6.002.2x,06/28/2016,"Circuits and Electronics: Amplification, Speed, and Delay","Anant Agarwal, Gerald Sussman, Piotr Mitros, Chris Terman, Bonnie Lam",4
+MITx,3.15.2x,06/29/2016,Optical Materials and Devices,Caroline Ross,4
+HarvardX,HDS3221.5x,07/05/2016,World Religions Through their Scriptures: Hinduism,Neelima Shukla-Bhatt,4
+MITx,11.133x,07/14/2016,Implementation and Evaluation of Educational Technology,"Eric Klopfer, Elizabeth Huttner-Loan",4
+HarvardX,MUS24.4x,07/21/2016,First Nights: Symphonie Fantastique,Tom Kelly,4
+HarvardX,GSE4x,07/25/2016,Introduction to Family Engagement in Education,Karen Mapp,4
+MITx,6.302.0x,08/01/2016,Introduction to Control System Design,"Jacob White, Joe Steinmeyer",4
+MITx,6.302.1x,08/01/2016,Introduction to State Space Control,"Jacob White, Joe Steinmeyer",4
+MITx,3.15.3x,08/03/2016,Magnetic Materials and Devices,Caroline Ross,4

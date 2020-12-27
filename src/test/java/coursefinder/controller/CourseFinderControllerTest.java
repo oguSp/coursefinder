@@ -35,7 +35,7 @@ public class CourseFinderControllerTest {
     }
 
     @Test
-    public void filterByInstructorYear() throws FileNotFoundException {
+    public void filterByInstructorYearTest() throws FileNotFoundException {
         CourseFinderController controllerResult1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/coursefinder/src/test/java/coursefinder/resources/filterByInstructorYear.csv"));
         CourseFinderController controller1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/harvardMIT.csv"));
         List<Course> result1 = controllerResult1.findAllCourses();
@@ -46,7 +46,7 @@ public class CourseFinderControllerTest {
     }
 
     @Test
-    public void filterByInstructorLaunchDate() throws FileNotFoundException, ParseException {
+    public void filterByInstructorLaunchDateTest() throws FileNotFoundException, ParseException {
         CourseFinderController controllerResult1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/coursefinder/src/test/java/coursefinder/resources/filterByInstructorLaunchDate.csv"));
         CourseFinderController controller1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/harvardMIT.csv"));
         List<Course> result1 = controllerResult1.findAllCourses();
@@ -57,4 +57,46 @@ public class CourseFinderControllerTest {
         assertTrue(courses1.containsAll(result1));
     }
 
+    @Test
+    public void filterByYearLaunchDateTest() throws ParseException, FileNotFoundException {
+        CourseFinderController controllerResult1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/coursefinder/src/test/java/coursefinder/resources/filterByYearLaunchDate.csv"));
+        CourseFinderController controller1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/harvardMIT.csv"));
+        List<Course> result1 = controllerResult1.findAllCourses();
+        DateFormat format = new SimpleDateFormat("yyyy", Locale.ENGLISH);
+        Date launchDate = format.parse("2016");
+        int year = 4;
+        List<Course> courses1 = controller1.filterByYearLaunchDate(year, launchDate);
+        assertTrue(courses1.containsAll(result1));
+    }
+
+    @Test
+    public void filterByInstructorTest() throws FileNotFoundException {
+        CourseFinderController controllerResult1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/coursefinder/src/test/java/coursefinder/resources/filterByInstructor.csv"));
+        CourseFinderController controller1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/harvardMIT.csv"));
+        List<Course> result1 = controllerResult1.findAllCourses();
+        String[] instructorNames = {"David E. Pritchard"};
+        List<Course> courses1 = controller1.filterByInstructor(instructorNames);
+        assertTrue(courses1.containsAll(result1));
+    }
+
+    @Test
+    public void filterByYearTest() throws FileNotFoundException {
+        CourseFinderController controllerResult1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/coursefinder/src/test/java/coursefinder/resources/filterByYear.csv"));
+        CourseFinderController controller1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/harvardMIT.csv"));
+        List<Course> result1 = controllerResult1.findAllCourses();
+        int year = 1;
+        List<Course> courses1 = controller1.filterByYear(year);
+        assertTrue(courses1.containsAll(result1));
+    }
+
+    @Test
+    public void filterByLaunchDate() throws FileNotFoundException, ParseException {
+        CourseFinderController controllerResult1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/coursefinder/src/test/java/coursefinder/resources/filterByLaunchDate.csv"));
+        CourseFinderController controller1 = new CourseFinderController(new CSVCourseRepository("/home/ugo/Desktop/harvardMIT.csv"));
+        List<Course> result1 = controllerResult1.findAllCourses();
+        DateFormat format = new SimpleDateFormat("yyyy", Locale.ENGLISH);
+        Date launchDate = format.parse("2014");
+        List<Course> courses1 = controller1.filterByLaunchDate(launchDate);
+        assertTrue(courses1.containsAll(result1));
+    }
 }

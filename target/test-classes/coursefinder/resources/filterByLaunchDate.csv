@@ -1,0 +1,61 @@
+Institution,Course Number,Launch Date,Course Title,Instructors,Year
+HarvardX,CS50x,01/01/2014,Introduction to Computer Science,David Malan,3
+HarvardX,SW12.2x,01/02/2014,The Creation and End of a Centralized Empire,"Peter Bol, Bill Kirby",2
+HarvardX,HDS1544.1x,01/05/2014,Early Christianity: The Letters of Paul,Laura Nasrallah,2
+HarvardX,AI12.2x,01/15/2014,Poetry in America: Whitman,Elisa New,2
+HarvardX,SW12.3x,02/13/2014,Cosmopolitan Tang: Aristocratic Culture,"Peter Bol, Bill Kirby",2
+MITx,12.340x,02/19/2014,Global Warming Science,Kerry Emanuel,2
+MITx,6.00.1x,02/19/2014,Introduction to Computer Science and Programming,"Eric Grimson, John Guttag",2
+HarvardX,SW25x,02/25/2014,Global Health: Case Studies from a Biosocial Perspective,"Arthur Kleinman, Paul Farmer, Salmaan Keshavjee, Anne Becker",2
+MITx,15.071x,03/04/2014,The Analytics Edge,Dimitris Bertsimas,2
+MITx,16.110x,03/05/2014,Flight Vehicle Aerodynamics,Mark Drela,2
+MITx,6.00.2x,03/05/2014,Introduction to Computational Thinking and Data Science,"Eric Grimson, John Guttag",2
+HarvardX,GSE1x,03/11/2014,Unlocking the Immunity to Change,"Robert Kegan, Lisa Lahey",2
+MITx,15.390x,03/18/2014,Entrepreneurship 101: Who Is Your Customer?,Bill Aulet,2
+HarvardX,SW12.4x,03/20/2014,A New National Culture,"Peter Bol, Bill Kirby",2
+HarvardX,HAA1x,03/22/2014,HarvardX for Alumni: Explorations in Learning,Rob Lue,2
+HarvardX,BUS5.1x,03/31/2014,Innovating in Health Care,"Regina Herzlinger, Margo Selzer",2
+MITx,JPAL 101x,04/01/2014,Evaluating Social Programs,"Rachel Glennerster, Marc Shotland",2
+HarvardX,PH525x,04/07/2014,Data Analysis for Genomics,Rafael Irizarry,2
+HarvardX,HSPH210x,04/07/2014,United States Health Policy,John McDonough,2
+HarvardX,ER22.1x,04/08/2014,Justice,Michael Sandel,2
+MITx,6.SFMx,04/08/2014,Street Fighting Math,"Sanjoy Mahajan, Isaac Chuang",2
+HarvardX,SW12.5x,04/24/2014,From Global Empire to Global Economy,"Peter Bol, Bill Kirby",2
+MITx,MAS.S69x,05/12/2014,Big Data and Social Physics,Sandy Pentland,2
+MITx,3.091x,05/12/2014,Introduction to Solid State Chemistry,Michael Cima,2
+HarvardX,SW12.6x,05/22/2014,The Last Empire,"Peter Bol, Bill Kirby",2
+MITx,8.MREV,05/29/2014,Mechanics Review,David Pritchard,2
+HarvardX,USW30x,06/02/2014,Tangible Things,Laurel Ulrich,2
+MITx,2.01x,06/03/2014,Elements of Structures,Simona Socrate,2
+MITx,6.00.1x,06/11/2014,Introduction to Computer Science and Programming,"Eric Grimson, John Guttag",2
+MITx,7.QBWx,06/12/2014,Quantitative Biology Workshop,Marry Ellen Wiltrout,2
+MITx,7.00x,06/17/2014,Introduction to Biology: Secret of Life,Eric Lander,2
+MITx,7.00x,06/17/2014,Introduction to Biology: Secret of Life,Eric Lander,3
+HarvardX,GSE2x,07/08/2014,Leaders of Learning,Richard Elmore,2
+MITx,6.002x,08/25/2014,Circuits and Electronics,"Anant Agarwal, Gerald Sussman, Piotr Mitros, Chris Terman, Bonnie Lam",3
+MITx,6.00.1x,08/27/2014,Introduction to Computer Science and Programming,Eric Grimson,3
+HarvardX,HUM2.1x,09/02/2014,The Ancient Greek Hero in 24 Hours (Hours 1-5): Epic and Lyric,Gregory Nagy,3
+HarvardX,VJx,09/03/2014,"Visualizing Japan (1850s-1930s): Westernization, Protest, Modernity",John W. Dower,3
+MITx,3.032x,09/03/2014,Mechanical Behavior of Materials,Lorna J. Gibson,3
+MITx,3.091x,09/03/2014,Introduction to Solid State Chemistry,Michael Cima,3
+HarvardX,SW12.7x,09/04/2014,"Invasions, Rebellions, and the end of Imperial China","Peter Bol, Bill Kirby",3
+HarvardX,AMPOx.1,09/10/2014,Poetry in America: The Poetry of Early New England,Elisa New,3
+HarvardX,HUM2.2x,09/14/2014,The Ancient Greek Hero in 24 Hours (Hours 6-11): Signs of the Hero in Epic and Iconography,Gregory Nagy,3
+MITx,4.605x,09/23/2014,A Global History of Architecture,Mark Jarzombek,3
+HarvardX,AT1x,09/30/2014,AnatomyX: Musculoskeletal Cases,Trudy Van Houten,3
+MITx,ESD.SCM1x,09/30/2014,Supply Chain and Logistics Fundamentals,Chris Caplice,3
+MITx,24.00x,09/30/2014,"Introduction to Philosophy: God, Knowledge and Consciousness",Caspar Hare,3
+MITx,JPAL 101x,10/01/2014,Evaluating Social Programs,Rachel Glennerster,3
+MITx,6.832x,10/01/2014,Underactuated Robotics,Russ Tedrake,3
+HarvardX,HUM2.3x,10/08/2014,The Ancient Greek Hero in 24 Hours (Hours 12-15): Cult of Heroes,Gregory Nagy,3
+MITx,11.132x,10/08/2014,Design and Development of Educational Technology,Eric Klopfer,3
+HarvardX,SW12.8x,10/09/2014,Creating China: The Birth of a Nation,"Peter Bol, Bill Kirby",3
+MITx,6.00.2x,10/21/2014,Introduction to Computational Thinking and Data Science,Eric Grimson,3
+HarvardX,HUM2.4x,10/22/2014,The Ancient Greek Hero in 24 Hours (Hours 16-21): The Hero in Tragedy,Gregory Nagy,3
+HarvardX,AMPOx.2,10/22/2014,"Poetry in America: Nature and Nation, American Poetry, 1700-1850",Elisa New,3
+MITx,11.126x,10/22/2014,Introduction to Game Design,Eric Klopfer,3
+HarvardX,1368.2x,10/27/2014,"Saving Schools: History, Politics, and Policy in U.S. Education – Teacher Policies",Paul Peterson,3
+HarvardX,SW47.1x,10/30/2014,Entrepreneurship and Healthcare in Emerging Economies,Tarun Khanna,3
+HarvardX,HUM2.5x,11/12/2014,The Ancient Greek Hero: Plato and Beyond,Gregory Nagy,3
+MITx,9.01x,11/18/2014,"Light, Spike, and Sight: The Neuroscience of Vision",Sebastian Seung,3
+HarvardX,SW12.9x,11/20/2014,Communist Liberations,"Peter Bol, Bill Kirby",3
