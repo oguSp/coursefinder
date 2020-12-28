@@ -1,3 +1,4 @@
+# Coursefinder
 
 Software eseguibile da riga di comando. Il file <i>csv</i> contenente i corsi va passato come argomento (il path deve essere assoluto).
 È stata utilizzata la libreria <i>apache commons cli</i> per la gestione ed il parsing degli argomenti e delle opzioni. 
