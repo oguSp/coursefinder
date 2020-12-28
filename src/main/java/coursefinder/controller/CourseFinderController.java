@@ -7,6 +7,9 @@ import java.util.stream.Collectors;
 import coursefinder.domain.Course;
 import coursefinder.repository.course.ICourseRepository;
 
+/**
+ * Classe avente che funge da handler per le richieste al sistema da parte dell'utente.
+ */
 public class CourseFinderController {
     
     ICourseRepository courseRepository;

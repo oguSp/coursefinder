@@ -17,7 +17,8 @@ import coursefinder.domain.Course;
 import coursefinder.repository.course.CSVCourseRepository;
 
 /**
- * I risultati su cui viene fatto il confronto sono salvati in vari csv (uno per ogni test). Bisogna mettere il path assoluto per i file.
+ * I file "oracolo" su cui viene fatto il confronto sono salvati in vari csv (uno per ogni test). 
+ * Bisogna mettere il path assoluto per i file.
  */
 public class CourseFinderControllerTest {
 

@@ -107,7 +107,7 @@ public class App {
         }
     }
     // Selezione della factory relativa alla stampante
-    static void configureCoursePrinter(boolean hasXlsOption) {
+    private static void configureCoursePrinter(boolean hasXlsOption) {
         if (hasXlsOption == true) {
             basePrinterFactory = new ExcelCoursePrinterFactory();
         } else {
